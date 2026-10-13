@@ -11,5 +11,5 @@ server_constants = {
    "post_GPS_NAS": "http://192.168.0.111:8002/gps/create/"
 }
 
-seconds_between_GPS_updates = 60
+seconds_between_GPS_updates = 15
 number_of_encoder_modes = 3

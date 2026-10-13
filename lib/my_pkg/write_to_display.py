@@ -92,11 +92,11 @@ def print_to_display(display,
       display_lines[0] = f"{time_string}"
       display_lines[1] = f"Lat: {latitude:.5f}" if latitude is not None else " "
       display_lines[2] = f"Lat: {longitude:.5f}" if longitude is not None else " "
-      display_lines[3] = ""
-      display_lines[4] = f"{meaning1}"
-      display_lines[5] = f"{meaning2}"
-      display_lines[6] = f"{meaning3}"
-      display_lines[7] = f"{meaning4}"
+      display_lines[3] = f"{meaning1}"
+      display_lines[4] = f"{meaning2}"
+      display_lines[5] = f"{meaning3}"
+      display_lines[6] = f"{meaning4}"
+      display_lines[7] = ""
       display_lines[8] = ""
       write_to_display(display, display_lines)
       time_string = pretty_time(time.localtime())
